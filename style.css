@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(255, 0, 0, 0.992);
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-style: normal;
+}
+.container {
+    height: 70vh;  /* vh mean 70% will always be to a conatiner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 60vmin; /* from 70%  60% will belong to game */
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 10vmin;
+    background-color: white;
+    color: black;
+}
+
+.reset-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#ngame {
+     padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+
+}
+.win {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.msg-Container {
+    height: 30vmin;
+}
